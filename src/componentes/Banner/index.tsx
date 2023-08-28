@@ -1,5 +1,4 @@
 import './Banner.css';
-import React from 'react';
 
 // declarando props necessarias e o tipo que aceitam
 interface BannerProps {
