@@ -12,15 +12,15 @@ interface CampoTextoProps {
     valor: string
 
     // boolean
-    obrigatorio: boolean
+    obrigatorio?: boolean
 }
 
 const CampoTexto = ({ 
         aoAlterado, 
         label, 
-        obrigatorio, 
         placeholder, 
-        valor 
+        valor,
+        obrigatorio = false 
     }: CampoTextoProps) => {
 
     const placeholderModificada = `${placeholder}...` 
